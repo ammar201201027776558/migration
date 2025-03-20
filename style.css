@@ -1,0 +1,117 @@
+body{
+    background-color: #EAF6F6;
+    text-align: center;
+    margin: 0;
+    font-family: "Merriweather", serif;
+}
+h1 {
+    font-family: "Sacramento", serif;
+    font-size: 3.75rem;
+}
+.navbar{
+    background-color: rgba(5, 107, 107, .8);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.navbar h1{
+    margin: 0;
+    color: #EAF6F6;
+}
+.navbar a{
+    text-decoration: none;
+    font-family: "Merriweather", serif;
+    color: #EAF6F6;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0 20px;
+}
+.LightSection{
+    background-color: #EAF6F6;
+    h1 {
+        color: #66BFBF;
+    }
+    h2 {
+        color: #66BFBF;
+    }
+    p {
+        color: #40514E;
+    }
+}
+.DarkSection{
+    background-color: #66BFBF;
+    h1 {
+        color: #11999E;
+    }
+    h2 {
+        color: #11999E;
+    }
+    p {
+        color: #EAF6F6;
+    }
+}
+.ProfilePicture{
+    border-radius: 50%;
+    width: 250px;
+}
+.Section1{
+    margin-top: 20px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.Card{
+    width: 25%;
+    margin: 2%;
+    border: solid 5px #40514E;
+    border-radius: 30px;
+    padding:0 15px;
+}
+.Card img{
+    width: 75%;
+    height: 300PX;
+    border-radius: 10%;
+    margin-top: 20px;
+}
+.CatFeeder-container{
+    display: flex;
+    text-align: left;
+    padding: 0 20px;
+}
+.CatFeeder-container img{
+    width: 25%;
+    margin: 10px 25px;
+}
+
+.GarfieldCorp-container{
+    display: flex;
+    text-align: right;
+    padding: 0 20px;
+}
+.GarfieldCorp-container img{
+    width: 25%;
+    margin: 10px 25px;
+}
+
+.Footer{
+    background-color: rgba(5, 107, 107, 1);
+    text-align: center;
+    padding: 10px;
+    /* width: 100%; */
+    /* height: 100%;*/
+} 
+.Footer a{
+     text-decoration: none; 
+    color: #EAF6F6; 
+}
+
+.fa-brands{
+    margin: 10px;
+}
+.e{
+font-size: large;
+color: rgb(109, 15, 8);
+}
